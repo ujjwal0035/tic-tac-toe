@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tictoctoe</title>
+    <link href="./tictoctoe.css" rel="stylesheet"/>
+    <script src="./tictoctoe.js" type="text/javascript" ></script>
+</head>
+<body>
+    <h1 class="heading">Lets play Tic Tac Toe!</h1>
+    <div class="play-area">
+        <div id="1" class="play-cells" onclick="cellClickHandler(0,0,'1')"></div>
+        <div id="2" class="play-cells" onclick="cellClickHandler(0,1,'2')"></div>
+        <div id="3" class="play-cells" onclick="cellClickHandler(0,2,'3')"></div>
+        <div id="4" class="play-cells" onclick="cellClickHandler(1,0,'4')"></div>
+        <div id="5" class="play-cells" onclick="cellClickHandler(1,1,'5')"></div>
+        <div id="6" class="play-cells" onclick="cellClickHandler(1,2,'6')"></div>
+        <div id="7" class="play-cells" onclick="cellClickHandler(2,0,'7')"></div>
+        <div id="8" class="play-cells" onclick="cellClickHandler(2,1,'8')"></div>
+        <div id="9" class="play-cells" onclick="cellClickHandler(2,2,'9')"></div>
+    </div>
+    <div class="model-container">
+        <!-- <h1 class="winning-container">X Won</h1> -->
+        <button class="refresh" onclick="window.location.reload()">Play Again</button>
+    </div>
+</body>
+</html>
